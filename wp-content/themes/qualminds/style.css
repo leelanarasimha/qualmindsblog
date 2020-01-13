@@ -1,0 +1,27 @@
+/*
+Theme Name: Qualminds
+Author: Qualminds Team
+*/
+
+body {
+	background-color: #fff;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav#navbar {
+	background-color: #492a9b !important;
+}
+
+.white-box {
+	background-color: #fff;
+}
+
+.single-post h1 {
+	font-size: 4rem;
+}
+
+.single-post .content {
+}
