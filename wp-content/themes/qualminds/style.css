@@ -23,6 +23,14 @@ nav#navbar {
 	font-size: 4rem;
 }
 
+.insights-list {
+	height: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.18039216);
+}
+.c-pointer {
+	cursor: pointer;
+}
+
 /* font sizes */
 .ft-1em {
 	font-size: 1em;
@@ -43,4 +51,21 @@ nav#navbar {
 .no-hover:hover {
 	text-decoration: none;
 	color: #000;
+}
+
+/* colors */
+.light-grey {
+	color: #666;
+}
+.color-red {
+	color: #f13624;
+}
+
+
+/* single page css */
+.main-title {
+    font-weight: 400;
+    font-size: 54px !important;
+    letter-spacing: -.6px;
+    padding-top: .5em;
 }
