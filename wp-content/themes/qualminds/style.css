@@ -23,5 +23,24 @@ nav#navbar {
 	font-size: 4rem;
 }
 
-.single-post .content {
+/* font sizes */
+.ft-1em {
+	font-size: 1em;
+}
+.ft-1_2em {
+	font-size: 1.2em;
+}
+
+/* background colors */
+.bgcolor-grey {
+	background-color: #f5f5f5;
+}
+
+.no-hover {
+	text-decoration: none;
+	color: #000;
+}
+.no-hover:hover {
+	text-decoration: none;
+	color: #000;
 }
