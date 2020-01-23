@@ -25,7 +25,7 @@ nav#navbar {
 
 .insights-list {
 	height: 100%;
-    box-shadow: 0 3px 6px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.18039216);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .18039216);
 }
 .c-pointer {
 	cursor: pointer;
@@ -61,45 +61,68 @@ nav#navbar {
 	color: #f13624;
 }
 
-
 /* single page css */
 .main-title {
-    font-weight: 400;
-    font-size: 54px !important;
-    letter-spacing: -.6px;
-    padding-top: .5em;
+	font-weight: 400;
+	font-size: 54px !important;
+	letter-spacing: -.6px;
+	padding-top: .5em;
 }
-
 
 /* insights page */
 .insights-banner {
-    background-color: #492a9b;
+	background-color: #492a9b;
 }
 .banner_height {
 	height: 700px;
 }
 .header_line_space {
-    letter-spacing: -.9px;
-    text-transform: none;
+	letter-spacing: -.9px;
+	text-transform: none;
 }
 .font-3em {
-    font-size: 3em !important;
+	font-size: 3em !important;
 }
 .font-1_5em {
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
 .text-border {
-    height: 5px;
-    background: #ffb031;
+	height: 5px;
+	background: #ffb031;
 }
 .read-more-btn {
-    padding: 5px 10px;
-    display: inline-block;
+	padding: 5px 10px;
+	display: inline-block;
 	border: 1px solid #f13624;
 	background-color: #f13624;
-    color: #fff;
+	color: #fff;
 }
 .blog-text {
 	background: #f8e71c;
-    padding: 2px;
+	padding: 2px;
+}
+
+.single-post .content .wp-block-image {
+	text-align: center;
+	margin: 40px auto;
+}
+
+.single-post h1 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 1.19;
+	letter-spacing: -0.6px;
+	color: #201f1f;
+	max-width: 90%;
+	padding-top: .5em;
+}
+
+.single-post .content p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 34px;
+	color: #666;
+	margin: 40px 0 0;
+	max-width: 100%;
 }
