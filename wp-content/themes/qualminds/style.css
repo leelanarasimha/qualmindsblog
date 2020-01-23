@@ -126,3 +126,15 @@ nav#navbar {
 	margin: 40px 0 0;
 	max-width: 100%;
 }
+
+.single-post .content ul {
+	margin-top: 30px;
+}
+
+.single-post .content ul {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 34px;
+	color: #666;
+	max-width: 100%;
+}
