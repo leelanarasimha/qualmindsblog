@@ -69,3 +69,26 @@ nav#navbar {
     letter-spacing: -.6px;
     padding-top: .5em;
 }
+
+
+/* insights page */
+.insights-banner {
+    background-color: #492a9b;
+}
+.banner_height {
+	height: 700px;
+}
+.header_line_space {
+    letter-spacing: -.9px;
+    text-transform: none;
+}
+.font-3em {
+    font-size: 3em !important;
+}
+.font-1_5em {
+    font-size: 1.5em;
+}
+.text-border {
+    height: 5px;
+    background: #ffb031;
+}
