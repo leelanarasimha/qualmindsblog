@@ -20,26 +20,34 @@
     </div>
 </div>
 
-<div class="container my-4">
+<div class="container mt-4 mb-5">
     <div class="row">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <div class="col-md-12 col-lg-4 mt-4">
-            <a href="<?php the_permalink(); ?>" class="white-box no-hover">
+            <div class="white-box no-hover">
                 <div class="insights-list">
                     <div class="">
                         <img src="<?php echo get_the_post_thumbnail_url(); ?>" class="img-fluid w-100" />
                     </div>
-                    <div class="p-3" style="min-height: 125px;">
-                        
-                        <div class="ft-1em" style="color: #6f85a3;">
-                            <?php foreach(get_the_category() as $category) { ?>
-                            <div><?php echo strtoupper($category->name); ?></div>
-                            <?php } ?>
+                    <div class="p-3">
+                        <div class="py-3">
+                            <span class="blog-text">BLOG</span>
+                            <span class="pl-2"><?php the_date(); ?></span>
                         </div>
-                        <div class="ft-1_2em font-weight-bold"><?php the_title(); ?></div>
+                        <div class="pb-3" style="height: 175px;">
+                            <div class="ft-1em py-3" style="color: #6f85a3;">
+                                <?php foreach(get_the_category() as $category) { ?>
+                                <div><?php echo strtoupper($category->name); ?></div>
+                                <?php } ?>
+                            </div>
+                            <div class="ft-1_2em font-weight-bold"><?php the_title(); ?></div>
+                        </div>
+                        <div class="">
+                            <a href="<?php the_permalink(); ?>" class="read-more-btn no-hover text-white">Read More</a> 
+                        </div>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
         <?php endwhile; endif; ?>
     </div>

@@ -92,3 +92,14 @@ nav#navbar {
     height: 5px;
     background: #ffb031;
 }
+.read-more-btn {
+    padding: 5px 10px;
+    display: inline-block;
+	border: 1px solid #f13624;
+	background-color: #f13624;
+    color: #fff;
+}
+.blog-text {
+	background: #f8e71c;
+    padding: 2px;
+}
